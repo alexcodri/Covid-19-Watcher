@@ -1,0 +1,6 @@
+framework module Pods_Covid_19_Watcher {
+  umbrella header "Pods-Covid-19 Watcher-umbrella.h"
+
+  export *
+  module * { export * }
+}
