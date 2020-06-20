@@ -29,7 +29,9 @@ struct RecentView: View {
                         self.searchText.isEmpty ?
                             true : $0.countryName.lowercased().contains(self.searchText.lowercased())
                     }, id: \.countryName){ countryData in
-                        CountryDataRowView(countryData: countryData)
+                        NavigationLink(destination: CountryDetailsView(countryData: countryData)){
+                            CountryDataRowView(countryData: countryData)
+                        }
                     }
                 }
             }// end of  vstack
