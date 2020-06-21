@@ -27,6 +27,8 @@
 		FA85F772249ECDC400B2204E /* SearchbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85F771249ECDC400B2204E /* SearchbarView.swift */; };
 		FA85F774249ED13900B2204E /* CountryDetailsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85F773249ED13900B2204E /* CountryDetailsRowView.swift */; };
 		FA85F776249ED2A400B2204E /* CountryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85F775249ED2A400B2204E /* CountryDetailsView.swift */; };
+		FA85F778249F5EF100B2204E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85F777249F5EF100B2204E /* MapView.swift */; };
+		FA85F77A249F63D600B2204E /* MapContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85F779249F63D600B2204E /* MapContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		FA85F771249ECDC400B2204E /* SearchbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchbarView.swift; sourceTree = "<group>"; };
 		FA85F773249ED13900B2204E /* CountryDetailsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsRowView.swift; sourceTree = "<group>"; };
 		FA85F775249ED2A400B2204E /* CountryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsView.swift; sourceTree = "<group>"; };
+		FA85F777249F5EF100B2204E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FA85F779249F63D600B2204E /* MapContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 				FA85F771249ECDC400B2204E /* SearchbarView.swift */,
 				FA85F773249ED13900B2204E /* CountryDetailsRowView.swift */,
 				FA85F775249ED2A400B2204E /* CountryDetailsView.swift */,
+				FA85F777249F5EF100B2204E /* MapView.swift */,
+				FA85F779249F63D600B2204E /* MapContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,11 +292,13 @@
 				FA85F76A249EC11400B2204E /* Extension.swift in Sources */,
 				FA85F74D249EAE3900B2204E /* ContentView.swift in Sources */,
 				FA85F776249ED2A400B2204E /* CountryDetailsView.swift in Sources */,
+				FA85F778249F5EF100B2204E /* MapView.swift in Sources */,
 				FA85F75F249EB31300B2204E /* TotalDataModel.swift in Sources */,
 				FA85F75D249EB03F00B2204E /* CovidDataFetchRequest.swift in Sources */,
 				FA85F768249EBFC100B2204E /* CountryDataRowView.swift in Sources */,
 				FA85F748249EAE3900B2204E /* SceneDelegate.swift in Sources */,
 				FA85F770249EC7F100B2204E /* TotalDataView.swift in Sources */,
+				FA85F77A249F63D600B2204E /* MapContainerView.swift in Sources */,
 				FA85F772249ECDC400B2204E /* SearchbarView.swift in Sources */,
 				FA85F764249EBCB300B2204E /* RecentView.swift in Sources */,
 			);
